@@ -1,0 +1,19 @@
+
+---
+
+### 3. `package.json`
+A basic `package.json` file if this script will be used in a JavaScript environment for handling dependencies (in case you want to use Node.js for parts of this project in the future).
+
+```json
+{
+  "name": "pryka-scraper",
+  "version": "1.0.0",
+  "description": "A scraper for product pages and images on Pryka.in",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pranav Ahire",
+  "license": "MIT",
+  "dependencies": {}
+}
